@@ -10,7 +10,7 @@ import java.util.List;
 import javax.swing.table.AbstractTableModel;
 
 public class sinhVienTableModel extends  AbstractTableModel{
-    private final String[] tenCot = {"Tên đăng nhập", "Mật khẩu", "Họ tên","Tuổi","Giới tính"};
+    private final String[] tenCot = {"TÊN ĐĂNG NHẬP", "MẬT KHẨU", "HỌ TÊN","TUỔI","GIỚI TÍNH"};
     private List<sinhVien> sinhVien;
 
     public sinhVienTableModel() {
