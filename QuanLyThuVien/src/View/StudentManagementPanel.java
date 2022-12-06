@@ -96,7 +96,7 @@ public class StudentManagementPanel extends javax.swing.JPanel {
         btnGroup_sex.add(radio_nu);
         radio_nu.setText("Nữ");
 
-        bth_TaoMoi.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hinhNen/icon/new-icon-16.png"))); // NOI18N
+        bth_TaoMoi.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hinhNen/icon/add_icon-icons.com_74429.png"))); // NOI18N
         bth_TaoMoi.setText("Tạo Mới");
 
         btn_save.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hinhNen/icon/Save-icon.png"))); // NOI18N
