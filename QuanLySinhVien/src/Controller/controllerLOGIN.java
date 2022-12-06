@@ -5,6 +5,8 @@
  */
 package Controller;
 
+import View.FormAdmin;
+import View.FormNguoiDoc;
 import View.FormQuanLySinhVien;
 import View.formLOGIN;
 import java.awt.event.ActionEvent;
@@ -35,22 +37,32 @@ public class controllerLOGIN {
             String tk = formLogin.tfTaiKhoan.getText();
             String mk = formLogin.pwMatKhau.getText();
             try {
-                if (DAOlogin.checkTaiKhoan(tk, mk) == true) {
+                if (DAOlogin.checkTaiKhoan(tk, mk) == 11) {
                     formLogin.showMessage("Đăng nhâp thành công");
-
-                    FormQuanLySinhVien formSinhVien = new FormQuanLySinhVien();
-                    controllerQuanLySinhVien cnQuanLySinhVien = new controllerQuanLySinhVien(formSinhVien);
-                    
-                    
-                    //////////////////////////////////////////////////////////////////
+                            
+                    FormAdmin formAdmin = new FormAdmin();
+                    controllerAdmin cnAdmin = new controllerAdmin(formAdmin);
                     try {
-                        cnQuanLySinhVien.showSinhVienView();
+                        //cnQuanLySinhVien.showAdminView();
                         formLogin.setVisible(false);
 
                     } catch (SQLException ex) {
 
                     }
-                } //////////////////////////////////////////////////////////////////////////
+                }
+                if (DAOlogin.checkTaiKhoan(tk, mk) == 1) {
+                    formLogin.showMessage("Đăng nhâp thành công");
+                            
+                    FormNguoiDoc formNguoiDoc = new FormNguoiDoc();
+                    controllerNguoiDoc cnNguoiDoc = new controllerNguoiDoc(formNguoiDoc);
+                    try {
+                        //cnQuanLySinhVien.showNguoiDocView();
+                        formLogin.setVisible(false);
+
+                    } catch (SQLException ex) {
+
+                    }
+                } 
                 else {
                     formLogin.showMessage("Đăng nhâp thất bại vui lòng kiểm tra lại tài khoản");
                 }

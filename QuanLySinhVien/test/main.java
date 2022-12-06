@@ -14,9 +14,7 @@ public class main {
             public void run() {
                 formLOGIN form = new formLOGIN();
                      controllerLOGIN controLOGIN = new controllerLOGIN(form);
-                     controLOGIN.showFormLogin();
-                        
-                
+                     controLOGIN.showFormLogin();   
             }
         });
     }

@@ -11,17 +11,19 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 public class DAOlogin {
-    public boolean checkTaiKhoan(String tk , String mk) throws SQLException{
+    public int checkTaiKhoan(String tk , String mk) throws SQLException{
       DAO d1 = new DAO();
       Connection conn= d1.getConnection();
-      String sql="select * from sinhVien1 where tenDangNhap='"+tk+ "' and matKhau='"+mk+"'";
+      String sql="select * from users where tenDangNhap='"+tk+ "' and matKhau='"+mk+"'";
       Statement st = conn.createStatement();
         ResultSet rs =st.executeQuery(sql);
         while(rs.next()){
-           return true ;
-         
-              
+           int check = rs.getInt(3); //Cot thu 3 la cot itAdmin
+           if(check==1)
+               return 11;
+           else
+               return 1;
         }
-        return false ;
+        return 0 ;
 }
 }
