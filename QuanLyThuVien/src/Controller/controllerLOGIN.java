@@ -5,9 +5,9 @@
  */
 package Controller;
 
-import View.FormAdmin;
-import View.FormNguoiDoc;
-import View.FormQuanLySinhVien;
+import View.adminForm;
+import View.nguoiDocForm;
+//import View.FormQuanLySinhVien;
 import View.formLOGIN;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -40,10 +40,10 @@ public class controllerLOGIN {
                 if (DAOlogin.checkTaiKhoan(tk, mk) == 11) {
                     formLogin.showMessage("Đăng nhâp thành công");
                             
-                    FormAdmin formAdmin = new FormAdmin();
+                    adminForm formAdmin = new adminForm();
                     controllerAdmin cnAdmin = new controllerAdmin(formAdmin);
                     //try {
-                        //cnQuanLySinhVien.showAdminView();
+                        cnAdmin.showAdminView();
                         formLogin.setVisible(false);
 
                     //} catch (SQLException ex) {
@@ -53,13 +53,13 @@ public class controllerLOGIN {
                 if (DAOlogin.checkTaiKhoan(tk, mk) == 1) {
                     formLogin.showMessage("Đăng nhâp thành công");
                             
-                    FormNguoiDoc formNguoiDoc = new FormNguoiDoc();
+                    nguoiDocForm formNguoiDoc = new nguoiDocForm();
                     controllerNguoiDoc cnNguoiDoc = new controllerNguoiDoc(formNguoiDoc);
                     //try {
-                        //cnQuanLySinhVien.showNguoiDocView();
+                        cnNguoiDoc.showNguoiDocView();
                         formLogin.setVisible(false);
 
-                    //} catch (SQLException ex) {
+                   // } catch (SQLException ex) {
 
                     //}
                 } 

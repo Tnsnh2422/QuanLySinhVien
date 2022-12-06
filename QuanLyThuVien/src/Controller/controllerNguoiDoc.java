@@ -5,7 +5,7 @@
  */
 package Controller;
 
-import View.FormNguoiDoc;
+import View.nguoiDocForm;
 
 /**
  *
@@ -13,7 +13,11 @@ import View.FormNguoiDoc;
  */
 class controllerNguoiDoc {
 
-    controllerNguoiDoc(FormNguoiDoc formNguoiDoc) {
+    controllerNguoiDoc(nguoiDocForm formNguoiDoc) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    void showNguoiDocView() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     

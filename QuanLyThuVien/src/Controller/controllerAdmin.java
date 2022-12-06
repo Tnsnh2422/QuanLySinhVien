@@ -5,15 +5,27 @@
  */
 package Controller;
 
-import View.FormAdmin;
+import View.adminForm;
+import View.formLOGIN;
 
-/**
- *
- * @author Administrator
- */
 public class controllerAdmin {
 
-    public controllerAdmin(FormAdmin formAdmin) {
+    private adminForm formAdmin;
+    private DAOuser DAOuser;
+    private sinhVienTableModel modelTable;
+    private formLOGIN formLogin ;
+
+    controllerAdmin(adminForm formAdmin) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    void showAdminView() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+public class controllerAdmin {
+
+    public controllerAdmin(adminForm formAdmin) {
     }
     
 }

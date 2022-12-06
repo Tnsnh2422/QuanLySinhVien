@@ -3,15 +3,20 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+            <file>file:/C:/Users/Administrator/Documents/GitHub/QuanLySinhVien/QuanLyThuVien/src/View/adminForm.java</file>
             <file>file:/C:/Users/Administrator/Documents/GitHub/QuanLySinhVien/QuanLyThuVien/src/Controller/DAOsinhVien.java</file>
             <file>file:/C:/Users/Administrator/Documents/GitHub/QuanLySinhVien/QuanLyThuVien/src/Model/sinhVienTableModel.java</file>
+            <file>file:/C:/Users/Administrator/Documents/GitHub/QuanLySinhVien/QuanLyThuVien/src/Controller/DAOuser.java</file>
             <file>file:/C:/Users/Administrator/Documents/GitHub/QuanLySinhVien/QuanLyThuVien/test/main.java</file>
-            <file>file:/C:/Users/Administrator/Documents/GitHub/QuanLySinhVien/QuanLyThuVien/src/View/FormNguoiDoc.java</file>
+            <file>file:/C:/Users/Administrator/Documents/GitHub/QuanLySinhVien/QuanLyThuVien/src/View/BookManagementPanel.java</file>
+            <file>file:/C:/Users/Administrator/Documents/GitHub/QuanLySinhVien/QuanLyThuVien/src/View/nguoiDocForm.java</file>
             <file>file:/C:/Users/Administrator/Documents/GitHub/QuanLySinhVien/QuanLyThuVien/src/Controller/DAOlogin.java</file>
+            <file>file:/C:/Users/Administrator/Documents/GitHub/QuanLySinhVien/QuanLyThuVien/src/View/AuthorPanel.java</file>
             <file>file:/C:/Users/Administrator/Documents/GitHub/QuanLySinhVien/QuanLyThuVien/src/Model/sinhVien.java</file>
             <file>file:/C:/Users/Administrator/Documents/GitHub/QuanLySinhVien/QuanLyThuVien/src/Controller/controllerLOGIN.java</file>
             <file>file:/C:/Users/Administrator/Documents/GitHub/QuanLySinhVien/QuanLyThuVien/src/Controller/controllerQuanLySinhVien.java</file>
             <file>file:/C:/Users/Administrator/Documents/GitHub/QuanLySinhVien/QuanLyThuVien/src/Controller/controllerAdmin.java</file>
+            <file>file:/C:/Users/Administrator/Documents/GitHub/QuanLySinhVien/QuanLyThuVien/src/View/StudentManagementPanel.java</file>
             <file>file:/C:/Users/Administrator/Documents/GitHub/QuanLySinhVien/QuanLyThuVien/src/Controller/DAO.java</file>
             <file>file:/C:/Users/Administrator/Documents/GitHub/QuanLySinhVien/QuanLyThuVien/src/View/FormQuanLySinhVien.java</file>
             <file>file:/C:/Users/Administrator/Documents/GitHub/QuanLySinhVien/QuanLyThuVien/src/View/formLOGIN.java</file>
